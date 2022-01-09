@@ -1,0 +1,46 @@
+[
+  {
+    "name": "svelte",
+    "repo": "https://github.com/sveltejs/template"
+  },
+  {
+    "name": "vitesse",
+    "repo": "https://github.com/antfu/vitesse"
+  },
+  {
+    "name": "rust-cli",
+    "repo": "https://github.com/dodiameer/rust-cli-boilerplate"
+  },
+  {
+    "name": "sveltekit-bootstrap",
+    "repo": "https://github.com/dodiameer/sveltekit-bootstrap-starter"
+  },
+  {
+    "name": "sveltekit-postcss",
+    "repo": "https://github.com/dodiameer/sveltekit-postcss-starter"
+  },
+  {
+    "name": "sveltekit-bulma",
+    "repo": "https://github.com/dodiameer/sveltekit-bulma-starter"
+  },
+  {
+    "name": "phoenix-auth",
+    "repo": "https://github.com/dodiameer/phx_guardian_auth"
+  },
+  {
+    "name": "fullstack",
+    "repo": "https://github.com/dodiameer/phoenix-sveltekit-starter"
+  },
+  {
+    "name": "node-ts",
+    "repo": "https://github.com/dodiameer/node-ts-starter.git"
+  },
+  {
+    "name": "s-app",
+    "repo": "https://github.com/dodiameer/svelte-app-template.git"
+  },
+  {
+    "name": "sk-app",
+    "repo": "https://github.com/dodiameer/sveltekit-app-template.git"
+  }
+]
