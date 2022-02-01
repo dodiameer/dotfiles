@@ -8,5 +8,8 @@ alias ls="ls -alh"
 alias oldcoding="cd ~/Desktop/Coding"
 alias coding="cd ~/github.com/dodiameer"
 alias gen-secret="openssl rand -hex 32"
-alias npm="npm --no-audit --progress=false"
+
+# Fixes history not being saved
+PROMPT_COMMAND="history -a"
+
 eval "$(starship init bash)"
