@@ -9,7 +9,7 @@ alias oldcoding="cd ~/Desktop/Coding"
 alias coding="cd ~/github.com/dodiameer"
 alias gen-secret="openssl rand -hex 32"
 
-# Fixes history not being saved
-PROMPT_COMMAND="history -a"
+export VOLTA_HOME=$HOME/.volta
+export PATH=$PATH:$VOLTA_HOME/bin:$HOME/.local/bin
 
 eval "$(starship init bash)"
