@@ -9,8 +9,6 @@ alias oldcoding="cd ~/Desktop/Coding"
 alias coding="cd ~/github.com/dodiameer"
 alias gen-secret="openssl rand -hex 32"
 
-eval $(thefuck --alias --enable-experimental-instant-mode)
-
 export VOLTA_HOME=$HOME/.volta
 export PATH=$PATH:$VOLTA_HOME/bin:$HOME/.local/bin
 
