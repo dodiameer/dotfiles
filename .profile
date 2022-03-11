@@ -10,6 +10,6 @@ alias coding="cd ~/github.com/dodiameer"
 alias gen-secret="openssl rand -hex 32"
 
 export VOLTA_HOME=$HOME/.volta
-export PATH=$PATH:$VOLTA_HOME/bin:$HOME/.local/bin
+export PATH=$PATH:$VOLTA_HOME/bin:$HOME/.local/bin:$HOME/.local/bin/intellij-idea/bin
 
 eval "$(starship init bash)"
