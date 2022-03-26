@@ -8,6 +8,7 @@ alias ls="ls -alh"
 alias oldcoding="cd ~/Desktop/Coding"
 alias coding="cd ~/github.com/dodiameer"
 alias gen-secret="openssl rand -hex 32"
+alias ll="ls -alh"
 
 export VOLTA_HOME=$HOME/.volta
 export DENO_INSTALL="/home/dodiameer/.deno"
