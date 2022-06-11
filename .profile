@@ -13,6 +13,12 @@ alias ll="ls -alh"
 export VOLTA_HOME=$HOME/.volta
 export DENO_INSTALL="/home/dodiameer/.deno"
 export PATH="$DENO_INSTALL/bin:$PATH"
-export PATH=$PATH:$VOLTA_HOME/bin:$HOME/.local/bin:$HOME/.local/bin/intellij-idea/bin
+export PATH="$VOLTA_HOME/bin:$HOME/.local/bin:$HOME/.local/bin/intellij-idea/bin:$PATH"
+
+# pnpm
+export PNPM_HOME="/home/mohammed/.local/share/pnpm"
+export PATH="$PNPM_HOME:$PATH"
+# pnpm end
 
 eval "$(starship init bash)"
+. "$HOME/.cargo/env"
